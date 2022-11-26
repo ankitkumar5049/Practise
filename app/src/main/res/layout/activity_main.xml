@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/search_layout"
+        android:layout_width="match_parent"
+        android:background="@drawable/round"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal"
+        android:layout_marginRight="20dp">
+
+        <LinearLayout
+            android:id="@+id/navigation_button"
+            android:orientation="vertical"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+        <EditText
+            android:id="@+id/edit_search"
+            android:layout_width="165dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:hint="Search Here"
+            android:textColor="@color/black"
+            android:layout_marginRight="20dp"/>
+<!--            android:background="@android:color/transparent"/>-->
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/roundbutton"/>
+    </LinearLayout>
+
+</LinearLayout>
