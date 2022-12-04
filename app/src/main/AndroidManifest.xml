@@ -10,12 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.New">
         <activity
-            android:name=".SplashScreen"
-            android:exported="false" >
-
-        </activity>
+            android:name=".Activity.SecondActivity"
+            android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".SplashScreen"
+            android:exported="false"></activity>
+        <activity
+            android:name=".Activity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
